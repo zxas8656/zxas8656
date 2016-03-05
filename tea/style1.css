@@ -1,0 +1,68 @@
+  header
+    {
+        
+    font-weight: bold;
+    text-decoration: underline;
+    line-height: 200%;
+        
+    }
+
+  P 
+    {
+       
+    text-align: left;
+    margin-left:20%;
+    margin-right:20%;
+    text-indent:5%;
+    font-family: Apple Casual;
+    font-size: 120%;
+    letter-spacing: 1px;
+    
+    }
+h4
+    {
+    text-align: left;
+    margin-left:15%;
+    margin-right:20%;
+    }
+
+ol
+    {
+    margin-left:13%;
+    margin-right:20%;
+    line-height: 200%;
+    
+    }
+
+li
+    {
+      
+    font-style: italic;
+    text-transform: uppercase;
+    }
+  
+body {
+
+  text-align: left;
+  background-color: #d0e4fe;
+  color: #3565bc;
+  font-family: Verdana;
+  height:500%; 
+  padding:0 10em; 
+  border:10px  
+  solid #beceeb; 
+  margin:2%;
+  width:94%; 
+  vertical-align:middle;
+  font-size:0.9em;
+ 
+}    
+footer
+{
+	text-align: right;
+	alignment-adjust: auto;
+	margin-right:20%;
+}
+
+
+    
