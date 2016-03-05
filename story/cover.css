@@ -1,0 +1,39 @@
+body {
+	background: url('dog.jpg') no-repeat center center fixed;
+    background-size: auto;
+}
+
+#title {
+	position: absolute;
+	bottom: 60%;
+	left: 25%;
+	width: 50%;
+	text-align: center;
+	border: 5px solid white;
+	
+}
+p {
+	color: #ffffcc;
+	text-indent: 2px;
+}
+
+#title h1 a:link {
+	color: white;
+	text-decoration: none;
+	
+}
+#title h1 a:visited {
+	color: white;
+	text-decoration: none;
+	
+}
+#title h1 a:hover{
+	color: #ffff99;
+	text-decoration: underline;
+	
+}
+#title h1 a:active {
+	color: #996633;
+	text-decoration: none;
+	
+}

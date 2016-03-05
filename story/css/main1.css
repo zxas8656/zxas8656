@@ -1,0 +1,30 @@
+/* CSS Document */
+
+body {
+	background: url('dog2.jpg') no-repeat center center fixed;
+    background-size: cover;
+	font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+	}
+nav{
+	border: 2px solid #6B3317;
+	position: absolute;
+	position: absolute;
+	
+	width: 15%;
+}
+p {
+	text-indent: 30px;
+	margin: 20%;
+}
+h1 {
+	text-align: center;
+	border-bottom: 2px solid #cc6600;
+	}
+	
+#one {
+	
+	}
+	
+
+
+	
