@@ -1,11 +1,11 @@
 body {
-	background: url('tea.jpg') no-repeat center center fixed;
+	background: url('tea1.jpg') no-repeat center center fixed;
     background-size: cover;
 }
 
 #title {
 	position: absolute;
-	bottom: 45%;
+	bottom: 60%;
 	left: 25%;
 	width: 50%;
 	text-align: center;

@@ -1,17 +1,17 @@
   header
     {
         
-    font-weight: bold;
+    font-weight: bolder;
     text-decoration: underline;
     line-height: 200%;
-        
+       
     }
 
   P 
     {
        
     text-align: left;
-    margin-left:20%;
+    margin-left:15%;
     margin-right:20%;
     text-indent:5%;
     font-family: Apple Casual;
@@ -19,28 +19,44 @@
     letter-spacing: 1px;
     
     }
+details
+    {
+    text-align: left;
+    line-height: 120%;
+    margin-right:20%;
+    }
 h4
     {
     text-align: left;
     margin-left:15%;
     margin-right:20%;
-    }
+    line-height: 10%;
 
+    }
 ol
     {
-    margin-left:13%;
+    margin-left: 13%; 
     margin-right:20%;
-    line-height: 200%;
+    line-height: 160%;
     
     }
 
 li
     {
-      
+    margin-left: 16%;  
     font-style: italic;
     text-transform: uppercase;
+    font-weight: bold;
     }
-  
+summary
+    {
+     text-decoration: underline;
+     margin-left: 20%;
+     
+     
+    
+     
+    }
 body {
 
   text-align: left;
@@ -61,7 +77,7 @@ footer
 {
 	text-align: right;
 	alignment-adjust: auto;
-	margin-right:20%;
+	margin-right:10%;
 }
 
 
