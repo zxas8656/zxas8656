@@ -6,48 +6,75 @@ body {
 	font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
 	}
 nav{
-	border: 2px solid #6B3317;
 	position: absolute;
-	position: absolute;
-	
 	width: 15%;
+
 }
 p {
 	text-indent: 30px;
-	margin: 5% 1% 1% 20%;
-}
-li
-{  
-	width: 60px;
-	background-color: #FF0000;	
-}
-li a:link {
-	background-color: pink;
-	text-decoration: none;
+	margin-left: 150px;
+      margin-right: 10%;
+	padding:1px 16px;
+	text-align: justify;
 	
+	}
+ul {
+    border-radius: 8px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100px;
+    background-color: #f1f1f1;
+    position: fixed;
+    height: 64%;
+    overflow: auto;
 }
-li a:visited {
-	background-color: #FF0000;
-	text-decoration: none;
-	
+
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 0 8px 16px;
+    text-decoration: none;
+    
 }
-li a:hover{
-	background-color: #ffff99;
-	text-decoration: underline;
-	
+
+li a.active {
+    background-color: #e67300;
+    color: white;
+          
+    
+
 }
-li a:active {
-	background-color: #996633;
-	text-decoration: none;
-	
+
+li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
 }
 	
 h1 {
 	text-align: center;
 	border-bottom: 2px solid #cc6600;
 	}
-	
+a {
+    display: block;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 5px;
+    transition: 0.3s;
+
+}
+
+a:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+
+}	
+
+
+
 #one {
+	font-size: 80%;
+      text-align: justify;
+
 	
 	}
 	
