@@ -57,6 +57,12 @@ summary
     
      
     }
+	
+	#container{
+	width: 80%;
+	margin: 0 auto;
+	}
+	
 body {
 
   text-align: left;
