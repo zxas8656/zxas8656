@@ -1,0 +1,94 @@
+/*css document*/
+
+/*helper style*/
+.col{
+	
+}
+
+/* main styles */
+
+body{
+	font-family: "Helvetica Neue", Helvetica, Arial, San-Serif;
+	font-size: 16px;
+min-height:700px;
+min-width:600px; 
+background-color:#e85e39;
+}
+header{
+	height: 12em; /*16*6=96 */
+	padding: 6em;
+	background: #f2cd98;
+	
+	
+}
+
+#container{
+	width: 100%;
+	margin: 0 auto;
+}
+
+
+nav{
+	margin-bottom: .5em;
+}
+nav .col{
+	background: none;
+	border: 1px solid #3A7FFF;
+	text-align: left;
+	box-sizing: border-box;
+	padding: .5em;
+	
+}
+
+
+	
+}
+
+
+
+#main .col{
+	height: auto;
+}
+
+#sidebar{
+	
+	height: 6em;
+}
+
+	
+/* type style*/
+
+
+h3{
+	font-family: 'Fredoka One', cursive;
+	
+}
+
+p{
+	line-height: 1.2em;
+	text-indent:40px;
+	
+	font-family: 'Boogaloo', cursive;
+	letter-spacing: 1px;
+	text-align: left;
+}
+#type{
+	line-height: 1.2em;
+	
+	font-family: 'Boogaloo', cursive;
+	letter-spacing: 1px;
+}
+
+
+
+
+
+
+footer{
+	margin-top:20%;
+	float: right;
+
+}
+
+
+
