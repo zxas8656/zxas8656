@@ -1,0 +1,49 @@
+@import url(https://fonts.googleapis.com/css?family=Fredoka+One|Boogaloo);
+
+body {
+  background:  #f2cd98;
+}
+
+.focus {
+  -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+}
+
+.focus:hover {
+  border: 10px groove blue;
+  border-radius: 50%;
+opacity: 0.5;
+    filter: alpha(opacity=40);
+
+}
+
+.pic {
+
+  height: 600px;
+  width: 700px;
+  overflow: hidden;
+  margin-left:30%;
+margin-top:1%;
+  border: 20px groove red;
+
+  -webkit-box-shadow: 1px 1px 1px #111;
+  box-shadow: 5px 5px 5px #111;
+  float: left;
+}
+
+.pic:hover {
+  
+opacity: 0.5;
+    filter: alpha(opacity=40);
+
+}
+p {
+font-family: 'Fredoka One', cursive;
+	text-align: center;
+	margin-top:1%;
+	margin-left:5%;
+font-size: 3em;
+}

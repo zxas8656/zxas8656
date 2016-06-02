@@ -10,10 +10,14 @@
 body{
 	font-family: "Helvetica Neue", Helvetica, Arial, San-Serif;
 	font-size: 16px;
+min-height:700px;
+min-width:600px; 
+
+
 }
 header{
-	height: 6em; /*16*6=96 */
-	padding: 5em;
+	height: 12em; /*16*6=96 */
+	padding: 6em;
 	background: #f2cd98;
 	margin-bottom: 5%;
 	
@@ -42,9 +46,39 @@ nav .col{
 }
 img {
 	float: left;
-	height: 40em;
 	margin-bottom: .5em;
 }
+
+img:hover {
+    opacity: 0.7;
+    filter: alpha(opacity=40);
+overflow: hidden;
+	
+}
+.pic {
+  border: 5px solid #fff;  
+  float: left;
+  height: 200px;
+  width: 280px;
+  margin-top: 20px;
+  overflow: hidden;
+   
+  -webkit-box-shadow: 2px 2px 2px #111;
+     box-shadow: 2px 2px 2px #111;  
+}
+.morph {
+  -webkit-transition: all 0.5s ease;
+overflow: hidden;
+}
+
+.morph:hover {
+  border-radius: 30%;
+overflow: hidden;
+
+}
+
+
+
 #main .col{
 	height: auto;
 }
@@ -57,27 +91,56 @@ img {
 	
 /* type style*/
 h1{
-	font-size: 2em; /*16*3=48*/
-	font-weight: 500;
+	font-size: 3em; /*16*3=48*/
+	font-weight: 700;
 	letter-spacing: 2px;
 	letter-transform: uppercase;
 	margin-bottom: .5em;
-	margin-left:18%;
+	font-family: 'Fredoka One', cursive;
+	text-align: center;
 	
 }
 header h2{
 	text-align: center;
-	font-size: .75em;
+	font-size: 1em;
 	text-transform: uppercase;
 	font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
 }
 
+h3{
+	font-family: 'Fredoka One', cursive;
+	margin-bottom: 2%;
+	margin-top: 3%;
+}
 
 p{
 	line-height: 1.2em;
-	margin-bottom: 1em;
+	text-indent:40px;
+	margin-top:1%;
+margin-bottom:1%;
+	font-family: 'Boogaloo', cursive;
+	letter-spacing: 1px;
+	text-align: justify;
+}
+#type{
+	line-height: 1.2em;
+	margin-top:1%;
+	margin-bottom:1%;
+	font-family: 'Boogaloo', cursive;
+	letter-spacing: 1px;
 }
 
+pre {
+	
+	line-height: 1.2em;
+	margin-top:1%;
+	margin-bottom:3%;
+	font-family: 'Boogaloo', cursive;
+	letter-spacing: 1px;
+}
+ol{
+margin-top:2%;
+}
 ul {
 	
 	width: 100%;
@@ -99,10 +162,14 @@ li a, .dropbtn {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+	border-right: 1px solid #FFF;
+	border-top: 1px solid #222;
+	
 }
 
 li a:hover, .dropdown:hover .dropbtn {
     background-color: black;
+	text-shadow: 1px 1px .5px #999;
 }
 
 li.dropdown {
@@ -135,3 +202,37 @@ li.dropdown {
 position:relative;
 z-index:1000;
 }
+
+
+.backtotop {
+    background: none;
+    margin: 0;
+    position: fixed;
+    bottom: 5px;
+    right: 18px;
+    z-index: 100;
+    display: none;
+    text-decoration: none;
+}
+ box1 {
+	text-align: center;
+	position: fixed;
+	top: 300px;
+	left: 0px;
+	margin: 0px;
+	padding: 0px;
+	height:240px;
+	width: 50px;
+	background-color:rgba(0, 0, 0, 0.0);
+	-webkit-transition: width 2s;                       	transition: width 2s;}
+      box1:hover{width:100px;} 
+
+
+footer{
+	margin-top:5%;
+	float: right;
+
+}
+
+
+
